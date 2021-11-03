@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -65,7 +65,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #ca7f4d;
     overflow: hidden;
 }
 
@@ -82,11 +82,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #000000;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(0, 0, 0);
 }
 
 
