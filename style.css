@@ -19,6 +19,7 @@ main {
 
 article {
     text-align: justify;
+
 }
 
 
@@ -43,7 +44,7 @@ img.zweefLinks {
 }
 
 #banana-fish-pic {
-    width:300px;
+    width:250px;
 }
 
 .smalltext {
@@ -92,7 +93,7 @@ nav li a.active {
 #animi {
    float: right;
    margin-bottom: 50px ;
-   width: 150px;
+   width: 220px;
    margin-left: 30px;
 }
  #hoofdtitel {
@@ -100,6 +101,39 @@ nav li a.active {
  }
 .biografie {
     text-align: center;
+    margin: 30px;
+   
 }
 
+#hometext {
+    float: right;
+}
+
+#blauw {
+    width: 180px; 
+}
+
+.Nltekst {
+   float: right;
+   position:relative;
+}
+
+.Italitekst {
+    
+}
+
+#geel {
+    width: 250px;
+}
+
+.paars {
+    width: 200px;
+    float: right;
+    margin:0px 20px;
+
+}
+
+.barbieR {
+    width: 300px;
+}
 
