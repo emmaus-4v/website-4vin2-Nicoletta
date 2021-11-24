@@ -98,6 +98,8 @@ nav li a.active {
  #hoofdtitel {
      font-family: cursive; 
  }
-
+.biografie {
+    text-align: center;
+}
 
 
