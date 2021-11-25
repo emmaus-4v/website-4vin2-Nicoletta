@@ -1,3 +1,10 @@
+/* Basisinstellingen */
+
+* {
+    overflow: auto;
+    box-sizing: border-box;
+}
+
 /* Basislayout */
 
 html, body {
@@ -34,6 +41,24 @@ footer {
     padding-bottom: 10px;
 }
 
+/* index layout */
+
+.rij {
+
+}
+
+.bredeTekst {
+}
+
+.plaatjeLinks {
+    float: left;
+    width: 100px;
+}
+
+.tekstRechts{
+    float: left;
+    width: 50%;
+}
 
 /* specifieke stijlen */
 
@@ -99,15 +124,6 @@ nav li a.active {
  #hoofdtitel {
      font-family: cursive; 
  }
-.biografie {
-    text-align: center;
-    margin: 30px;
-   
-}
-
-#hometext {
-    float: right;
-}
 
 #blauw {
     width: 180px; 
