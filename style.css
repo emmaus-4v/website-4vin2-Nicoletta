@@ -52,13 +52,46 @@ footer {
 
 .plaatjeLinks {
     float: left;
-    width: 100px;
+    width: 250px;
+    margin: 15px
 }
 
 .tekstRechts{
     float: left;
-    width: 50%;
+    width: 60%;
 }
+
+/* Nederlandse layout*/
+
+.plaatjeRechts {
+    float: right;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.Nltekst {
+    float: right;
+    position:relative;
+ }
+ 
+
+/* Italiaanse layout */
+
+.paars {
+    width: 170px;
+    float: right;
+    margin:0px 20px;
+    margin-top: 5px;
+
+}
+
+
+.tekstRechts2 {
+    width: 70%
+     right;
+}
+
 
 /* specifieke stijlen */
 
@@ -125,31 +158,7 @@ nav li a.active {
      font-family: cursive; 
  }
 
-#blauw {
-    width: 180px; 
-}
-
-.Nltekst {
-   float: right;
-   position:relative;
-}
-
 .Italitekst {
     
-}
-
-#geel {
-    width: 250px;
-}
-
-.paars {
-    width: 200px;
-    float: right;
-    margin:0px 20px;
-
-}
-
-.barbieR {
-    width: 300px;
 }
 
