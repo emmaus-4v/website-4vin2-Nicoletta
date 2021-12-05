@@ -52,14 +52,15 @@ footer {
 
 .plaatjeLinks {
     float: left;
-    width: 250px;
-    margin: 15px
+    width: 200px;
+    margin: 15px; 
 }
 
 .tekstRechts{
     float: left;
     width: 60%;
 }
+
 
 /* Nederlandse layout*/
 
