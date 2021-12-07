@@ -89,9 +89,15 @@ footer {
 
 
 .tekstRechts2 {
-    width: 70%
-     right;
+    width: 70%;
 }
+
+#plaatjeschool {
+    margin: 20px;
+    
+}
+
+
 
 
 /* specifieke stijlen */
