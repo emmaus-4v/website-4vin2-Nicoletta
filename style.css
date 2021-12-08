@@ -3,7 +3,7 @@
 * {
     overflow: auto;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px solid rgb(221, 26, 26);
 }
 
 /* Basislayout */
@@ -57,43 +57,50 @@ footer {
     margin: 15px; 
 }
 
-.tekstRechts{
-    float: left;
-    width: 60%;
-}
 
 
 /* Nederlandse layout*/
 
 .plaatjeRechts {
     float: right;
-    width: 250px;
-    height: 200px;
+    width: 50%;
     margin-top: 20px;
 }
 
-.Nltekst {
+.tekstRechts {
     float: right;
-    position:relative;
+    position: relative;
+    width: 45%;
+    float: right;
+    
  }
  
 
 /* Italiaanse layout */
 
 .plaatjeRechts2 {
-    width: calc( 30% - 2 * 0); /* marge eraf halen */
+    width: 50%;
     float: right;
-    /*margin:0px 20px;*/
-    margin-top: 5px;
+    margin-top: 15px;
 
 }
 
 
 .tekstRechts2 {
-    width: 70%;
-    float:right;
+    width: 45%;
+    float: left;
+    
 }
 
+.tekstLinks {
+    width: 45%;
+    float: left;
+}
+
+.tekstRaar {
+    width: 65%;
+    float: right;
+}
 
 
 
