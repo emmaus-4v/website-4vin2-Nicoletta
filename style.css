@@ -3,6 +3,7 @@
 * {
     overflow: auto;
     box-sizing: border-box;
+    border: 2px solid red;
 }
 
 /* Basislayout */
@@ -79,10 +80,10 @@ footer {
 
 /* Italiaanse layout */
 
-.paars {
-    width: 170px;
+.plaatjeRechts2 {
+    width: calc( 30% - 2 * 0); /* marge eraf halen */
     float: right;
-    margin:0px 20px;
+    /*margin:0px 20px;*/
     margin-top: 5px;
 
 }
@@ -90,12 +91,10 @@ footer {
 
 .tekstRechts2 {
     width: 70%;
+    float:right;
 }
 
-#plaatjeschool {
-    margin: 20px;
-    
-}
+
 
 
 
