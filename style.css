@@ -4,6 +4,8 @@
     overflow: auto;
     box-sizing: border-box;
     border: 2px solid rgb(221, 26, 26);
+    
+    
 }
 
 /* Basislayout */
@@ -11,10 +13,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(190, 196, 114);  
-    
     color: #000000;
     font: Verdana, Arial, Sans-Serif;
+    background-image: url(afbeeldingen/tree2.jpg);
 }
 
 
@@ -22,11 +23,13 @@ main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+    
 }
 
 
 article {
-    text-align: justify;
+    text-align: center;
+    background-color: rgb(204, 219, 237);
 
 }
 
@@ -34,12 +37,14 @@ article {
 header {
     color: rgb(255, 255, 255);
     text-align: center;
+    background-color: rgb(204, 219, 237);
 }
 
 
 footer {
     text-align: center;
     padding-bottom: 10px;
+    background-color: rgb(204, 219, 237);
 }
 
 /* index layout */
@@ -75,7 +80,13 @@ footer {
     
  }
  
-
+ #animi {
+    float: right;
+    margin-bottom: 50px ;
+    width: 220px;
+    margin-left: 30px;
+ }
+ 
 /* Italiaanse layout */
 
 .plaatjeRechts2 {
@@ -137,7 +148,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #718116;
+    background-color: rgb(145, 169, 199);
     overflow: hidden;
 }
 
@@ -158,15 +169,10 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: rgb(226, 211, 78);
+    background-color: #e4cf57;
 }
 
-#animi {
-   float: right;
-   margin-bottom: 50px ;
-   width: 220px;
-   margin-left: 30px;
-}
+
  #hoofdtitel {
      font-family: cursive; 
  }
