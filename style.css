@@ -1,7 +1,7 @@
 /* Basisinstellingen */
 
 * {
-    overflow: auto;
+    overflow: hidden;
     box-sizing: border-box;
     border: 2px solid rgb(221, 26, 26);
     
@@ -11,10 +11,15 @@
 /* Basislayout */
 
 html, body {
+    overflow: visible;
     height: 100%;
     padding: 0;
     color: #000000;
     font: Verdana, Arial, Sans-Serif;
+    margin:0px;
+}
+
+body {
     background-image: url(afbeeldingen/tree2.jpg);
 }
 
