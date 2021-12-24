@@ -3,7 +3,6 @@
 * {
     overflow: hidden;
     box-sizing: border-box;
-    border: 2px solid rgb(221, 26, 26);
     
     
 }
@@ -136,6 +135,7 @@ img.zweefLinks {
 
 .smalltext {
     font-size: 0.7em;
+    color: black;
 }
 
 a {
